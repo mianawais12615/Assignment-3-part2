@@ -6,7 +6,7 @@
     <title>Portfolio</title>
 </head>
 <body>
-    <h1>Portfolio Site</h1>
+    <h1><a href="https://zeeshan.p2pclouds.net/" target="_blank">Portfolio Site </a></h1>
     <h2>About Me</h2>
     <p>I am a passionate and dedicated Developer with a strong interest in building modern, user-friendly, and <b>efficient digital solutions</b> . I enjoy turning ideas into reality through clean code, creative thinking, and continuous learning. I focus on delivering high-quality work while keeping performance, <b>usability, and scalability</b> in mind.</p>
 
@@ -48,7 +48,7 @@
    <table>
     <thead>
         <tr>
-            <th rowspan="6">houres</th>
+            <th></th>
             <th>mon</th>
             <th>tues</th>
             <th>wed</th>
@@ -57,7 +57,7 @@
         </tr>
     </thead>
         <tr>
-          <td></td>
+          <td rowspan="1">houres</td>
           <td>arts</td>
           <td>maths</td>
           <td>english</td>
@@ -73,15 +73,14 @@
         <td>computer</td>
       </tr>
       <tr>
-         <td></td>
         <td></td>
         <td></td>
-        <td class="3">lunch</td>
+        <td colspan="3">lunch</td>
         <td></td>
         <td></td>
       </tr>
       <tr>
-         <td></td>
+        <td></td>
         <td>arts</td>
         <td>maths</td>
         <td>english</td>
@@ -100,8 +99,66 @@
    <iframe width="560" height="315" src="https://www.youtube.com/embed/cWEUE8X7p-k?si=UtvlBk062psIcouG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3401.141536673704!2d74.40321937566218!3d31.520272374214038!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39190f7df22c3fe7%3A0x8dd7ffda40aa6b03!2sAllama%20Iqbal%20International%20Airport!5e0!3m2!1sen!2s!4v1768734785939!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-   
+    
+   <!-- using div -->
+   <form>
+     <H2>Registration Form</H2>
+    <div class="username" name="name" id="username">
+    <label for="">Full Name*</label><br>
+    <input type="text" placeholder="enter full name" required>
+    </div>
 
+    <div class="lastname" name="lastname" id="lastname">
+      <label for="">Last Name</label><br>
+      <input type="text">
+    </div>
+
+    <div class="dob" name="dob" id="dob">
+      <label for="">Date of Birth</label><br>
+      <input type="date">
+    </div>
+
+    <div class="phn" name="phone-number" id="phn">
+      <label for="">Contact Number</label><br>
+      <input type="number" placeholder=" contact number" required>
+    </div>
+
+    <div class="email" name="email" id="email">
+      <label for="">Email</label><br>
+      <input type="email" placeholder="exmple@gmail.com">
+    </div>
+
+    <div class="password" name="password" id="password">
+      <label for="">Password</label><br>
+      <input type="password" placeholder="password">
+    </div>
+    
+    <div>
+      <label for="">Gender</label>
+      <input type="radio"> male
+      <input type="radio"> female
+      <input type="radio"> other
+    </div><br>
+    
+    <div class="image" name="image" id="image">
+      <label for="">Student Photo</label><br>
+      <input type="file">
+    </div>
+
+    <div>
+      <label for="">Agree</label><br>
+      <input type="checkbox">
+    </div>
+
+    <div class="btn" name="btn" id="btn">
+      <button type="submit">submit</button>
+    </div>
+
+   </form>
+
+   <!-- <a href="https://unsplash.com/photos/pile-of-colorful-leather-scraps-on-a-dark-background-TXTmUUGuvpQ" target="_parent">image</a> -->
+
+   <img src="download/colorimg.jpg" alt=""/>
 
 </body>
 </html>
